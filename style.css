@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Slab:wght@300&display=swap');
+body {
+	font-family:'Roboto Slab', Montserrat;
+}
+
+.container {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding-bottom: 30px;	
+}
+
+.loggo {
+	height: 35px; 
+}
+
+.text {
+	font-size: 18px;	
+}
+
+.row {
+	margin:0px;
+	text-align: center;	
+	padding-bottom: 20px;
+}
+
+.container-fluid {
+	padding: 0px;
+		
+}
+
+.background {
+	background-image: url("imagini/home.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.testimoniale {
+	width: 20px;
+	height: 20px;
+	
+}
+
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.imagini {
+	width: 400px;
+}
+
+.imagini2 {
+	width: 400px;
+	margin-left: 150px;
+}

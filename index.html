@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Biko Restaurant&Bar</title>
+	</head>
+	
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand m-2" href="index.html">
+				<img src="imagini/loggo.png" class="loggo" alt="loggo-ul restaurantului">
+			</a>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bara">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="bara">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#desprenoi">Despre Noi</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#meniu">Specialități</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#evenimente">Evenimente</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#galerie">Galerie foto</a>
+					</li> 
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#testimoniale">Părerile clienților</a>
+					</li> 
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li> 
+				</ul>
+			</div>
+		</div>			
+	</nav>
+	
+<div id="carusel" class="carousel slide" data-bs-ride="carousel">
+
+	<!-- indicatori de slide-uri -->
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active"></button>
+		<button type="button" data-bs-target="#carusel" data-bs-slide-to="1"></button>
+		<button type="button" data-bs-target="#carusel" data-bs-slide-to="2"></button>
+		<button type="button" data-bs-target="#carusel" data-bs-slide-to="3"></button>
+		<button type="button" data-bs-target="#carusel" data-bs-slide-to="4"></button>
+	</div>
+	
+	<!-- slide-uri propriu-zise -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="imagini/glasses.jpg" alt="masa aranjată cu pahare și plante" class="d-block w-100">
+				<div class="container">
+					<h1 class="display-1 text-light">BIKO</h1>
+					<h2 class="display-6 text-light">Restaurant&Bar</h2>
+					<p class="text-light">great food. great drinks. great music.</p>
+				</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img src="imagini/kitchen.jpg" alt="bucătărie și bucătarul șef" class="d-block w-100">
+				<div class="container">
+					<h1 class="display-1 text-light">BIKO</h1>
+					<h2 class="display-6 text-light">Restaurant&Bar</h2>
+					<p class="text-light">great food. great drinks. great music.</p>
+				</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img src="imagini/cosmo.jpg" alt="3 coktailuri colorate" class="d-block w-100">
+				<div class="container">
+					<h1 class="display-1 text-light">BIKO</h1>
+					<h2 class="display-6 text-light">Restaurant&Bar</h2>
+					<p class="text-light">great food. great drinks. great music.</p>
+				</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img src="imagini/eat.jpg" alt="text neon care reprezintă verbul a mânca" class="d-block w-100"> 
+				<div class="container">
+					<h1 class="display-1 text-light">BIKO</h1>
+					<h2 class="display-6 text-light">Restaurant&Bar</h2>
+					<p class="text-light">great food. great drinks. great music.</p>
+				</div>
+		</div>
+		
+		<div class="carousel-item">
+			<img src="imagini/cheers.jpg" alt="prieteni care dau noroc la o petrecere" class="d-block w-100">
+				<div class="container">
+					<h1 class="display-1 text-light">BIKO</h1>
+					<h2 class="display-6 text-light">Restaurant&Bar</h2>
+					<p class="text-light">great food. great drinks. great music.</p>
+				</div>
+		</div>
+	</div>
+	
+	<!-- butoane inainte si inapoi -->
+	<button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</button>
+	
+	<button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</button>
+</div>
+
+<div class="container-fluid bg-light text-dark" id="desprenoi">
+	<h2 class="display-5 text-center p-3">Despre noi</h2>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-xl-6">
+			<div class="text">
+				<p class="col bg-light text-dark">Situat în centrul orașului, restaurantul nostru oferă cadrul perfect pentru a demonstra dragostea pentru gastonomie și ingrediente de calitate. Biko Restaurant&Bar vă oferă un meniu dinamic și bogat, restaurantul susținând un stil de viață sănătos, fiind folosite ingrediente foarte calitative. Bucătarii noștri au o experiență lungă în domeniu și își dau interesul la cote maxime încât să satisfacă toți clienții la cel mai înalt nivel. Biko Restaurant&Bar îmbină mâncarea și băutura de calitate cu distracția, astfel petrecerile organizate de noi sunt fără precedent, iar clienții sunt așteptați cu o multitudine de surprize. Specialitățiile noaste sunt foarte diferite și dinamince, acestea fiind făcute într-un mod special și diferit față de alte locuri, așadar tot ceea ce producem are o aură de originalitate și inovație.</p>
+			</div>   
+			</div>
+			
+			<div class="col-sm-12 col-md-12 col-xl-6">
+			<div class="text">
+				<p class="col bg-light text-dark">Ceea ce oferim noi este de cea mai bună calitate și dăruim o notă de originalitate având în vedere tot ceea ce producem, de la mâncare și băuturi până la evenimente și seri distractive în restaurantul nostru. Personalul nostru are o experință lungă în domeniu și încearcă să ofere clienților cea mai bună servire și cea mai frumoasă experiență. Ne dorim să fim printre cei mai buni în domeniu și de aceea nu acceeptăm să nu primim un feedback bun din partea tuturor clinților noștri. Ne dăm interesul la cote maxime și dorim să avem o reputație extraordinar de bună în această industrie.Ne mândrim cu angajații nostri și ne bucurăm că am ales niște profesioniști care au ca scop dorința de a satisface absolut toți clienții.</p>
+			</div>
+			</div>
+		</div>
+</div>
+
+<div class="container-fluid text-dark" id="meniu">
+	<div class="background">
+		<h2 class="display-5 text-center p-3">Specialități</h2>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/avo-toast.jpg" alt="avocado toast">
+							<div class="card-body text-center">
+								<h3 class="card-header">Avocado Toast</h3>
+									<p class="text-muted">avocado, pâine prăjită, ou poșat, busuioc</p>
+									<p>- 23 lei -</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/soup.jpg" alt="ciorbă">
+							<div class="card-body text-center">
+								<h3 class="card-header">Ciorbă de vită</h3>
+									<p class="text-muted">carne de vită, morcovi, ardei iute, smântână</p>
+									<p>- 17 lei -</p>
+							</div>
+					</div>
+				</div>
+
+
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/beef.jpg" alt="vită cu piure">
+							<div class="card-body text-center">
+								<h3 class="card-header">Friptură de vită</h3>
+									<p class="text-muted">vită, cartofi piure cu trufe, salată de varză</p>
+									<p>- 48 lei -</p>
+							</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/cake.jpg" alt="tort de ciocolată">
+							<div class="card-body text-center">
+								<h3 class="card-header">Cheesecake</h3>
+									<p class="text-muted">cheseecake cu glazură de ciocolată și biscuiți</p>
+									<p>- 27 lei -</p>
+							</div>
+					</div>
+				</div>
+				
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/coffee.jpg" alt="cafea care curge">
+							<div class="card-body text-center">
+								<h3 class="card-header">Americano</h3>
+									<p class="text-muted">boabe de cafea din Jamaica</p>
+									<p>- 9 lei -</p>
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/alcohol.jpg" alt="3 pahare cu wiskey">
+							<div class="card-body text-center">
+								<h3 class="card-header">Wisky</h3>
+									<p class="text-muted">MACALLANUL 1926</p>
+									<p>- 24 lei -</p>
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/cocktail.jpg" alt="cocktail">
+							<div class="card-body text-center">
+								<h3 class="card-header">Gin Tonic</h3>
+									<p class="text-muted">Tanqueray London Dry Gin</p>
+									<p>- 27 lei -</p>
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-3">
+						<img class="card-img-top" src="imagini/shots.jpg" alt="2 pahare de shot">
+							<div class="card-body text-center">
+								<h3 class="card-header">Shoturi de tequila</h3>
+									<p class="text-muted">Don Julio 1942</p>
+									<p>- 15 lei -</p>
+							</div>
+					</div>
+				</div>
+				
+			</div>
+	</div>
+</div>
+
+
+<div class="container-fluid bg-light text-dark" id="evenimente">				
+	<h2 class="display-5 text-center p-3">Evenimente</h2>
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-xl-4">
+				<div class="card m-3">
+					<img class="card-img-top" src="imagini/coffee2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="barista care toară cafea">
+						<div class="card-body text-center">
+							<h3 class="text-center m-2">TASTE TEST - coffee edition</h3>
+								<h4 class="text-muted">17 decembrie 2021</h4>
+									<p>Am pregătit pentru iubitorii de cafea mai multe sortimente din cât mai multe țări exotice, pentru a le gusta și pentru a încerca niște sortimente pe care probabil puțini le-ar fi încercat fără ajutorul nostru. Reprezintă conceptul unei degustări de vin, dar este cu cafea.</p>
+						</div>
+				</div>
+			</div>
+			
+			
+			<div class="col-sm-12 col-md-4 col-xl-4">
+				<div class="card m-3">
+						<img class="card-img-top" src="imagini/basil.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="aperitiv cu busuioc roșii și mozarella">
+							<div class="card-body text-center">
+								<h3 class="text-center m-2">Veggie Day</h3>
+									<h4 class="text-muted">21 decembrie 2021</h4>
+										<p>Veggie Day este o zi pe care o dedicăm celor care sunt vegetarieni sau vegani, iar mâncarea care conține proteină animală este scoasă din meniul nostru în totalitate. Vrem să încurajăm lumea să renunțe dn ce în ce mai mult la consumul animalelor, fiind pregătit un meniu special și bogat.</p>
+							</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-12 col-md-4 col-xl-4">
+				<div class="card m-3">
+						<img class="card-img-top" src="imagini/bere.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="2 pahare cu bere">
+							<div class="card-body text-center">
+								<h3 class="text-center m-2">The Beer Competition</h3>
+									<h4 class="text-muted">23 decembrie 2021</h4>
+									<p>Restaurantul nostru te invită la un concurs care constă în a bea bere, fiind introduse mai multe jocuri distractive, câștigătorul fiind premiat cu mese gratuite timp de o lună în restaurantul nostru! Vă rugăm să veniți într-un grup de aproximativ 4-5 pentru a putea participa.</p>
+							</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="container-fluid bg-light text-dark" id="galerie">
+	<div class="background">				
+		<h2 class="display-5 text-center p-3">Galerie foto</h2>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<img src="imagini/party.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="petrecere">
+					<img src="imagini/wine.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="băuturi alcoolice">
+				</div>
+		
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<img src="imagini/aperol.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="pahar de aperol">
+					<img src="imagini/friends.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="prieteni care fac selfie">
+				</div>
+		
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<img src="imagini/cocktails.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="cocktailuri colorate">
+					<img src="imagini/burger.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="burger">
+				</div>
+	
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<img src="imagini/social-media.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="persoanaă care face poză la mancare">
+					<img src="imagini/basil.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="aperitiv cu busuioc roșii și mozarella">
+				</div>		
+			</div>		
+	</div>
+</div>
+
+<div class="container-fluid bg-light text-dark" id="testimoniale">
+	<h2 class="display-5 text-center p-3">Părerile clienților</h2>
+		<div class="row">
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-4">
+						<img class="card-img-top p-5 rounded-circle shadow-1-strong" src="imagini/woman05.jpg" alt="femeie cu pălărie">
+							<div class="card-body text-center">
+								<h3 class="text-muted">Maria Pop</h3>
+									<p class="text-muted">„Acest loc este minunat, mâncarea este foarte fresh, iar personalul foarte amabil. Recomand cu drag!”</p>
+
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-4">
+						<img class="card-img-top p-5 rounded-circle shadow-1-strong" src="imagini/man17.jpg" alt="băiat tânăr">
+							<div class="card-body text-center">
+								<h3 class="text-muted">Alex Rus</h3>
+									<p class="text-muted">„Totul este frumos aranjat și tot ce am gustat de la acest restaurant a fost peste aștepări!”</p>
+
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-4">
+						<img class="card-img-top p-5 rounded-circle shadow-1-strong" src="imagini/man36.jpg" alt="bărbat care zâmbește">
+							<div class="card-body text-center">
+								<h3 class="text-muted">Marius Mureșan</h3>
+									<p class="text-muted">„M-am simțit foarte bine întodeauna când m-am aflat aici. Se observă munca unor profesioniști.”</p>
+
+							</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 col-xl-3">
+					<div class="card m-4">
+						<img class="card-img-top p-5 rounded-circle shadow-1-strong" src="imagini/woman08.jpg" alt="femeie tânără">
+							<div class="card-body text-center">
+								<h3 class="text-muted">Ioana Zaharie</h3>
+									<p class="text-muted">„Unul dintre locurile mele preferate! Mâncarea este extraordinară și băuturile la fel.”</p>
+
+							</div>
+					</div>
+				</div>
+		</div>
+</div>
+
+</body>
+
+<footer class="container-fluid bg-dark text-light" id="contact">
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-xl-4">
+			<h2 class="m-3">Program</h2>
+				<h3 class="text-muted p-3">Luni-Joi</h3>
+					<p>9:00-22:00</p>
+						<h3 class="text-muted p-3">Vineri-Duminică</h3>
+							<p>9:00-24:00</p>				
+		</div>
+				
+				
+		<div class="col-sm-12 col-md-12 col-xl-4">
+			<h2 class="m-3">Adresa</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.894706286995!2d23.584869715565347!3d46.76697187913791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e828f44f137%3A0xecabbea4b03bcf68!2sStrada%20Republicii%205%2C%20Cluj-Napoca%20400000!5e0!3m2!1sro!2sro!4v1639414173565!5m2!1sro!2sro" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		
+		</div>
+				
+		<div class="col-sm-12 col-md-12 col-xl-4">
+			<h2 class="m-3">Contact</h2>
+				<h3 class="text-muted">Telefon</h3>
+					<p>0265565445</p>
+						<h3 class="text-muted">Mail</h3>
+							<p>biko.restaurant.bar@gmail.com</p>
+								<h3 class="text-muted">Online</h3>	
+									<a class="button m-2" href="https://www.facebook.com/">
+										<img src="imagini/facebook.png" class="loggo" alt="loggo Facebook">
+									</a>
+			
+									<a class="button m-2" href="https://twitter.com/">
+										<img src="imagini/twitter.png" class="loggo" alt="loggo Twitter">
+									</a>
+			
+									<a class="button m-2" href="https://www.instagram.com/">
+										<img src="imagini/instagram.png" class="loggo" alt="loggo Instagram">
+									</a>
+		</div>
+							
+	</div>
+	
+	<div class="text-center text-dark bg-light p-2">
+		<p>Copyright &copy; 2021 Dondoș Ada</p>
+	</div>	
+</footer>
+
+</html>
